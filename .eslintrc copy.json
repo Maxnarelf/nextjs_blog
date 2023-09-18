@@ -23,6 +23,8 @@
     "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state", "res"] }],
     "react/react-in-jsx-scope": 0,
     "react/jsx-props-no-spreading": ["error", {"exceptions": ["AuthComponent", "Component"]}],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "@typescript-eslint/no-explicit-any": ["off"],
     "comma-dangle": 0,
     "radix": 0,
     "max-len": [
